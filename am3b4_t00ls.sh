@@ -11,7 +11,7 @@ url=""
 api=""
 diretorio=""
 https_url=""
-$c="clear"
+c="clear"
 
 # Entrada do usuário
 read -p "Qual caminho da pasta deseja salvar?: " diretorio
