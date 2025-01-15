@@ -61,12 +61,6 @@ $p waybackurls $b
 $p hakrawler $b
 $px
 $c
-echo "[**Baixando ApkTool para funcionamento do Metasploit!!**]"
-curl -O "https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.10.0.jar" > apktool.jar && chmod +x apktool.jar
-mv apktool.jar /usr/local/bin && curl -O "https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool" > apktool
-chmod +x apktool && mv apktool /usr/local/bin
-echo "[**Dependencias baixadas com sucesso**]"
-$c
 
 # Clonando repositório NucleiFuzzer e executando instalação
 if [ ! -d "NucleiFuzzer" ]; then
