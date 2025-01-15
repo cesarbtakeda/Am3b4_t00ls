@@ -5,9 +5,6 @@ i="sudo apt-get install "
 p="sudo pip3 install"
 up="sudo apt-get update -y && sudo apt-get full-upgrade -y"
 b="--break-system-package"
-m="curl -O "https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.10.0.jar" > apktool.jar && chmod +x apktool.jar
-mv apktool.jar /usr/local/bin && curl -O "https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool" > apktool
-chmod +x apktool && mv apktool /usr/local/bin"
 px="pipx install xyz"
 
 echo "[**Atualizando arquivos...**]"
@@ -65,7 +62,9 @@ $p hakrawler $b
 $px
 $c
 echo "[**Baixando ApkTool para funcionamento do Metasploit!!**]"
-$m
+curl -O "https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.10.0.jar" > apktool.jar && chmod +x apktool.jar
+mv apktool.jar /usr/local/bin && curl -O "https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool" > apktool
+chmod +x apktool && mv apktool /usr/local/bin
 echo "[**Dependencias baixadas com sucesso**]"
 $c
 
