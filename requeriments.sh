@@ -46,6 +46,7 @@ $i tor -y
 $i veil -y
 $i apktool -y
 $i metagoofil -y
+$i make -y
 $c
 
 #Instalando uro
