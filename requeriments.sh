@@ -14,6 +14,7 @@ ngrok="curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
  m="curl -O "https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.10.0.jar" > apktool.jar && chmod +x apktool.jar
 mv apktool.jar /usr/local/bin && curl -O "https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool" > apktool
 chmod +x apktool && mv apktool /usr/local/bin"
+px="pipx install xyz"
 
 echo "[**Atualizando arquivos...**]"
 $up
@@ -67,6 +68,7 @@ $p requests $b
 $p katana $b
 $p waybackurls $b
 $p hakrawler $b
+$px
 echo "[**Baixando Ngrok...**]"
 $ngrok 
 echo "[**Download do Ngrok Concluido com Sucesso!!**]"
