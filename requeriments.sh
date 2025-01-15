@@ -52,7 +52,7 @@ $i postgresql -y
 $i apache2 -y
 $i tor -y
 $i veil -y
-
+$i metagoofil -y
 $c
 
 #Instalando uro
@@ -78,6 +78,7 @@ if [ ! -d "NucleiFuzzer" ]; then
   cd NucleiFuzzer
   sudo chmod +x install.sh && ./install.sh
   cd ..
+  nf
 else
   echo "[**Repositório NucleiFuzzer já clonado e pronto para funcionar!**]"
 fi
