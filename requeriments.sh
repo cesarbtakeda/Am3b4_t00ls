@@ -69,6 +69,7 @@ $p katana $b
 $p waybackurls $b
 $p hakrawler $b
 $px
+$c
 echo "[**Baixando Ngrok...**]"
 $ngrok 
 echo "[**Download do Ngrok Concluido com Sucesso!!**]"
