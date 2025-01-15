@@ -44,6 +44,7 @@ $i postgresql -y
 $i apache2 -y
 $i tor -y
 $i veil -y
+$i apktool -y
 $i metagoofil -y
 $c
 
