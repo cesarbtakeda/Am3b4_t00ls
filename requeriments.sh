@@ -64,6 +64,9 @@ $p maxphisher $b
 $p colorama $b
 $p sockets $b
 $p requests $b
+$p katana $b
+$p waybackurls $b
+$p hakrawler $b
 echo "[**Baixando Ngrok...**]"
 $ngrok 
 echo "[**Download do Ngrok Concluido com Sucesso!!**]"
