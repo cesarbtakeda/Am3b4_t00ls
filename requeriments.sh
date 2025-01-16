@@ -3,14 +3,15 @@
 c="clear"
 i="sudo apt-get install "
 p="sudo pip3 install"
-
+f="apt --fix-broken install"
+rm="sudo apt autoremove"
 b="--break-system-package"
 px="pipx install xyz"
 
 echo "[**Atualizando arquivos...**]"
 sudo apt-get update -y && sudo apt-get full-upgrade -y
-echo "[**Atualização completa**] "
 $c
+echo "[**Atualização completa**] "
 echo "[**Baixando dependências do Ameba...**]"
 
 # Instalação de pacotes
@@ -75,8 +76,11 @@ else
   echo "[**Repositório NucleiFuzzer já clonado e pronto para funcionar!**]"
 fi
 $c
-echo "[**Dependências baixadas com sucesso**]"
+
 $c
 sudo apt-get update -y && sudo apt-get full-upgrade -y
+$f
+$rm
 $c
+echo "[**Dependências baixadas com sucesso**]"
 echo "[**A atualização foi concluída com sucesso**]"
