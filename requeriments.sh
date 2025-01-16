@@ -3,8 +3,8 @@
 c="clear"
 i="sudo apt-get install "
 p="sudo pip3 install"
-f="apt-get --fix-broken install"
-rm="sudo apt-get autoremove"
+f="sudo apt-get --fix-broken install -y"
+rm="sudo apt-get autoremove -y"
 b="--break-system-package"
 px="pipx install xyz"
 
