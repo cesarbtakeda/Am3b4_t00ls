@@ -3,12 +3,12 @@
 c="clear"
 i="sudo apt-get install "
 p="sudo pip3 install"
-up="sudo apt-get update -y && sudo apt-get full-upgrade -y"
+
 b="--break-system-package"
 px="pipx install xyz"
 
 echo "[**Atualizando arquivos...**]"
-$up
+sudo apt-get update -y && sudo apt-get full-upgrade -y
 echo "[**Atualização completa**] "
 $c
 echo "[**Baixando dependências do Ameba...**]"
@@ -77,6 +77,6 @@ fi
 $c
 echo "[**Dependências baixadas com sucesso**]"
 $c
-$up
+sudo apt-get update -y && sudo apt-get full-upgrade -y
 $c
 echo "[**A atualização foi concluída com sucesso**]"
