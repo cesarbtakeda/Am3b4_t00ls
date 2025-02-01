@@ -25,11 +25,6 @@ cd Am3b4_t00ls && chmod +x *
 ./requeriments.sh && ./Am3b4_t00ls
 ```
 
-**In a new terminal**
-```
-
-```
-
 
 ## Am3b4_t00ls
 
