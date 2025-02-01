@@ -2,9 +2,6 @@
 
 
 
-# Am3b4_t00ls
-
-
 </p>
 <span>
 Ameba is a creation of my own solution for bug bounty, it is an automation tool when you don't have much time to do a bug bounty, or when you are pressed for time, am3b4 was developed with the best bug bounty tools to use, the tool strings can also be modified, but of course they are already predefined...
