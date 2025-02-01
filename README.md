@@ -8,7 +8,7 @@ Modo de instalação:
 
 $sudo su
 
-#git clone https://github.com/AlbedoPrime/am3b4_t00ls.git && cd am3b4_t00ls && chmod +x requeriments.sh && chmod +x am3b4_t00ls.sh && ./requeriments.sh && ./am3b4_t00ls.sh
+#git clone https://github.com/cesarbtakeda/am3b4_t00ls.git && cd am3b4_t00ls && chmod +x requeriments.sh && chmod +x am3b4_t00ls.sh && ./requeriments.sh && ./am3b4_t00ls.sh
 
 Modo de uso: $ sudo su
 
