@@ -20,7 +20,7 @@ cd Am3b4_t00ls && chmod +x *
 ```
 
 
-## Am3b4_t00ls
+## Am3b4_t00ls Apart
 
  Am3b4_t00ls stands out from the crowd for several reasons:
 
